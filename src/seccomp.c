@@ -176,6 +176,7 @@ enable_sandbox_full(void)
  	ALLOW_RULE(_llseek);
 	ALLOW_RULE(lstat);
  	ALLOW_RULE(lstat64);
+	ALLOW_RULE(madvise);
 	ALLOW_RULE(mmap);
  	ALLOW_RULE(mmap2);
 	ALLOW_RULE(mprotect);
